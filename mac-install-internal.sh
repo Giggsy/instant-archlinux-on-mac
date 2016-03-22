@@ -182,7 +182,7 @@ chroot /arch pacman --noconfirm --needed -U /var/cache/pacman/general/*.pkg.tar.
 # update after pushing packages from docker container to get the system 
 # in the most up to date state.
 ###############################################################################
-chroot /arch pacman -Su --noconfirm
+#chroot /arch pacman -Su --noconfirm
 
 ###############################################################################
 # Setup Infinality Fonts
