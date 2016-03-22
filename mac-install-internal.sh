@@ -162,7 +162,6 @@ cp /var/cache/pacman/custom/* /arch/var/cache/pacman/custom/
 ###############################################################################
 # Sync pacman database 
 ###############################################################################
-chroot /arch yaourt -S --nofonfirm package-query
 chroot /arch pacman -Syy --noconfirm
 
 ###############################################################################
