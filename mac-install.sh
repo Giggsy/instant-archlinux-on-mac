@@ -402,7 +402,7 @@ docker run \
   -u root \
   --rm \
   -ti \
-  yantis/instant-archlinux-on-mac \
+  giggsy/instant-archlinux-on-mac \
   bash -c "run-remote-script https://raw.githubusercontent.com/giggsy/instant-archlinux-on-mac/master/mac-install-internal.sh"
 
 # Flag that we did or did not have a successful install
