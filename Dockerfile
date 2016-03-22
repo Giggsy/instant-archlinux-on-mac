@@ -355,7 +355,6 @@ RUN pacman --noconfirm -Syw --cachedir /var/cache/pacman/general \
             terminus-font \
             tree \
             tmux \
-            vim  \
             xfce4 \
             xfce4-whiskermenu-plugin \
             xorg-server \
