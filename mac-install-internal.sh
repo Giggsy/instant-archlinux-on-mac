@@ -704,7 +704,7 @@ mv /arch/var/cache/pacman/custom/* /arch/var/cache/pacman/pkg/
 # TODO: See /usr/lib/yaourt/*.sh
 ###############################################################################
 echo "Updating Databases"
-chroot /arch runuser -l user -c "yaourt -Syy"
+#chroot /arch runuser -l user -c "yaourt -Syy"
 
 ###############################################################################
 # Restore pacman's security
