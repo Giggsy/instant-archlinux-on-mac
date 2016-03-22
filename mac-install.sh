@@ -295,7 +295,7 @@ fi
 # Pull latest image
 # Not really needed for one time use but while working on the script it is nice.
 ###############################################################################
-docker pull -a giggsy/instant-archlinux-on-mac
+docker pull yantis/instant-archlinux-on-mac
 
 ###############################################################################
 # Install rEFInd
@@ -402,7 +402,7 @@ docker run \
   -u root \
   --rm \
   -ti \
-  giggsy/instant-archlinux-on-mac \
+  yantis/instant-archlinux-on-mac \
   bash -c "run-remote-script https://raw.githubusercontent.com/giggsy/instant-archlinux-on-mac/master/mac-install-internal.sh"
 
 # Flag that we did or did not have a successful install
