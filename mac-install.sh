@@ -295,7 +295,7 @@ fi
 # Pull latest image
 # Not really needed for one time use but while working on the script it is nice.
 ###############################################################################
-docker pull yantis/instant-archlinux-on-mac
+docker pull giggsy/instant-archlinux-on-mac
 
 ###############################################################################
 # Install rEFInd
