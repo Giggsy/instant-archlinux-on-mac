@@ -176,7 +176,7 @@ echo "XferCommand = /usr/bin/printf 'Downloading ' && echo %u | awk -F/ '{printf
 ###############################################################################
 chroot /arch pacman --noconfirm -Rns vim-minimal
 chroot /arch pacman --noconfirm --needed -U /var/cache/pacman/general/*.pkg.tar.xz
-chroot /arch yaourt yaourt -S --noconfirm aur/package-query
+chroot /arch yaourt -S --noconfirm aur/package-query
 
 
 ###############################################################################
